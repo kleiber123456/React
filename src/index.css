@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contenedor{
+    width: 100vw;
+    min-height: 100vh;
+    background: #ced8ff;
+    transition: 1s;
+}
+
+.contenedor.dark{
+    background: black;
+    color: white;
+}
+
+.cajonnav.dark{
+    background: black;
+    color: white;
+}

@@ -1,0 +1,122 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 7%;
+    transition: 1s;
+}
+
+.navbar.dark{
+    background: rgb(70, 69, 69);
+    color: white;
+    border-bottom: solid 2px white;
+    transition: 1s;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: opacity 1s;
+    opacity: 1;
+}
+
+.links.dark{
+    color: white;
+}
+
+
+ul li:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 1s;
+    margin-left: 40px;
+}
+.buscador{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.box.dark{
+    background: white;
+    transition: 1s;
+}
+
+.buscador.dark{
+    color: black;
+}
+
+.buscador.dark::placeholder{
+    color: black;
+}
+
+.construye{
+    width: 1150px;
+    height: 430px;
+    border: solid 3px rgb(158, 0, 0);
+    padding: 10px;
+}
+
+.construye.dark{
+    width: 1150px;
+    height: 430px;
+    border: solid 3px blue;
+    padding: 10px;
+}
+
+.listas_productos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.producto{
+    width: 260px;
+    border-radius: 10px;
+}
+
+.nombre{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nombre.dark{
+    color: white;
+}
+
+.dis_cost{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cantidad{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.cantidad.dark{
+    color: blue;
+}

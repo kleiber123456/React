@@ -1,0 +1,125 @@
+.tablaproductos{
+
+    display:contents;
+}
+.contenedor_de_productos{
+    border: 2px solid black ;
+    border-radius: 30px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+.BotonAgregarProducoto{
+    background-color: #4CAF50;
+}
+
+h1{
+    text-align: center;
+}
+
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contrato{
+    margin-top: 10px;
+    margin-right: 6px;
+}
+
+.contenedorAgregar{
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 900px;
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 5px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 3s;
+    border-radius: 10px;
+    color: blue;
+}
+
+.contenedorAgregar.dark{
+    background: rgb(214, 209, 209);
+}
+
+.BTNeliminar{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;    
+    background-color: hsl(350, 100%, 37%);
+
+}
+.BTNeliminar:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.BTNeditar{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+    background: #4CAF50;
+}
+
+.BTNeditar:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.contenedorEditar{
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 5px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 3s;
+    border-radius: 10px;
+}
+.contenedorEliminar{
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 5px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 3s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+code{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+.opciones{
+    width: 100%;
+    height: 70;
+}
+
+.Login{
+    margin: 0 auto;
+    padding: 10px;
+    width: 350px;
+}
